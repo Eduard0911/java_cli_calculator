@@ -24,13 +24,13 @@ public class SumTest extends TestCase
      */
     public void testDoSum()
     {
-        int zahl1 = 1;
-        int zahl2 = 1;
+        double zahl1 = 1;
+        double zahl2 = 1;
 
 
         Sum sum = new Sum(zahl1, zahl2);
         sum.doSum();
-        int result = sum.getResult();
+        double result = sum.getResult();
 
         assertTrue( result == 2 );
     }
